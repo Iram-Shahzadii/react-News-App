@@ -6,6 +6,7 @@ import NewsItem from "./Components/NewsItem"
 const App=()=>{
   const [category,setCategory] = useState("general");
   return(
+    //my div
     <div>
 <Navbar setCategory={setCategory}/>
 <NewsBoard category={category}/>
